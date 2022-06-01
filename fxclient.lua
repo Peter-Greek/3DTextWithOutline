@@ -35,9 +35,6 @@ end
 
 
 function DrawText3DWithOutline(x,y,z,text, font, scale, exLines, rgb)
-	font = font
-	scale = scale
-	rgb = rgb
 	local retval,screenX,screenY = GetScreenCoordFromWorldCoord(x,y,z)
 
 	SetTextProportional(0)
